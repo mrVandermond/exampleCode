@@ -6,8 +6,6 @@ window.onload = function() {
 	var age = form[5];
 	var discription = form[7];
 
-	var realWidth = getComputedStyle(discription);
-
 	rePass.onchange = function(event) {
 
 		if (rePass.value != pass.value) {
